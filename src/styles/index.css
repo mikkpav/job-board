@@ -1,0 +1,43 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: large;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  overflow-wrap: anywhere;
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.1;
+}
+
+select {
+  color: black;
+  background-color: rgb(247, 247, 247);
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column; /* stack items vertically */
+  }
+
+  /* Add any other adjustments, like making buttons full width */
+  button, select {
+    width: 100%;
+    max-width: 100%;
+  }
+}

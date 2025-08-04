@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container select {
+  width: 60%;
+}
+
+.container p {
+  font-size: small;
+}
