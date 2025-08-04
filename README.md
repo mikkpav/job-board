@@ -1,6 +1,7 @@
 # Job Board
 
 A lightweight job board app built with React.  
+
 This is the first project I completed after transitioning from iOS development into learning modern web development with React.
 
 ## ✨ Purpose
@@ -28,13 +29,3 @@ The goal was to get comfortable with building and styling a complete app using H
 - Responsive design with media queries
 - Accessibility and semantic HTML (e.g., using `<dl>`, proper button behavior)
 - LocalStorage usage for simple data persistence
-
-## 🚀 Future Improvements
-
-- Add editing functionality to jobs
-- Improve form validation UX
-- Persist app state with a more scalable approach (e.g., context or external storage)
-
----
-
-Feel free to clone or fork this repo if you're learning React as well!
