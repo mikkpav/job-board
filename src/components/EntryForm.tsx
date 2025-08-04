@@ -17,7 +17,7 @@ export default function EntryForm({
 }: EntryFormProps) {
   return (
     <div>
-      <h1>Job Board Lite</h1>
+      <h1>Job Board</h1>
       <form className={styles.form} onSubmit={formEntryHandler}>
         <label htmlFor="title">Title</label>
         <input
