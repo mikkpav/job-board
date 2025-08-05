@@ -4,13 +4,17 @@ A lightweight job board app built with React.
 
 This is the first project I completed after transitioning from iOS development into learning modern web development with React.
 
+https://mikkpavelson.com/job-board/
+
 ## ✨ Purpose
 
 This project is part of my learning journey into front-end web development.  
-The goal was to get comfortable with building and styling a complete app using HTML, CSS, JavaScript/TypeScript, and React.
+The goal was to get comfortable with building and styling a complete app using HTML, CSS, JavaScript/TypeScript and React.
 
 ## 🛠️ Tech Stack
 
+- HMTL
+- CSS
 - React
 - TypeScript
 - Vite
