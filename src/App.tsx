@@ -19,22 +19,27 @@ function App() {
   } = useJobs();
 
   return (
-    <div className='container'>
-      <div className={styles.formContainer}>
-        <EntryForm
-          jobDraft={jobDraft}
-          formEntryHandler={handleFormSubmit}
-          jobUpdateHandler={handleNewJobUpdate}
-        />
-        <CategoryFilter
-          selectedCategoryFilter={categoryFilter}
-          categoryFilterHandler={handleFilterSelect}
-        />
+    <div>
+      <h1 style={{ fontWeight:500 }}>Job Board</h1>
+
+      <div className='container'>
+        <div className={styles.formContainer}>
+          <EntryForm
+            jobDraft={jobDraft}
+            formEntryHandler={handleFormSubmit}
+            jobUpdateHandler={handleNewJobUpdate}
+          />
+          <CategoryFilter
+            selectedCategoryFilter={categoryFilter}
+            categoryFilterHandler={handleFilterSelect}
+          />
+        </div>
+
+        <JobsList 
+          jobsList={filteredJobsList} 
+          favoriteToggleHandler={handleFavoriteToggle} 
+          jobDeleteHandler={handleJobDelete} />
       </div>
-      <JobsList 
-        jobsList={filteredJobsList} 
-        favoriteToggleHandler={handleFavoriteToggle} 
-        jobDeleteHandler={handleJobDelete} />
     </div>
   );
 }
